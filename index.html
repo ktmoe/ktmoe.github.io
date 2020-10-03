@@ -1,9 +1,122 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Basic Web Page</title>
-    </head>
-    <body>
-Hello World!
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="veiwport" content="width=device-width, initialscale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kay Thari Myat Moe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        html {
+            color: white;
+            font-family: 'lato', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* min-width: 80vh; */
+        }
+
+        body {
+            /* background-color: black; */
+            background-image: url("https://i.pinimg.com/originals/4d/84/7d/4d847db099133e809fc2a4a055d13f6a.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: bottom;
+        }
+
+        .center .avatar img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            object-position: 0 -8px;
+        }
+
+        .center {
+            width: 70%;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10% 0;
+            height: 60vh;
+            text-align: center;
+            border-radius: 5px;
+        }
+        h1 {
+            color: wheat;
+        }
+
+        .content h2,
+        p {
+            font-weight: lighter;
+            letter-spacing: 1px;
+            line-height: 30px;
+            width: 70%;
+            margin: 10px auto;
+        }
+
+        .content h2 {
+            font-weight: 400;
+        }
+
+        .content h3 {
+            margin-top: 20px;
+        }
+
+        .content p a.company {
+            color: pink;
+        }
+
+        div.social i {
+            padding: 0 10px;
+            font-size: 30px;
+            color: wheat;
+            transition: 0.4s;
+        }
+
+        div.social i:hover {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <div class="avatar">
+            <img src="images/ktmoe.jpg" alt="profile">
+        </div>
+        <div class="content">
+            <h1>Kay Thari Myat Moe</h1>
+            <h2>Android / Flutter Developer</h2>
+            <div>
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo.png" width="30px"/>
+                <img src="https://img.icons8.com/color/48/000000/kotlin.png" width="30px"/>
+                <img src="https://img.icons8.com/color/48/000000/android-os.png" width="30px"/>
+                <img src="https://img.icons8.com/color/48/000000/dart.png" width="30px"/>
+                <img src="https://img.icons8.com/color/48/000000/flutter.png" width="30px"/>
+                <img src="https://img.icons8.com/color/48/000000/firebase.png" width="30px"/>
+                <img src="https://img.icons8.com/color/48/000000/git.png" width="30px"/>
+            </div>
+            <p>Hi, I am Mobile Application Developer from Myanamr. Since the beginning of my developer life nearly 2
+                years ago, I've done many android and flutter projects.</p>
+            <p>I value UX and promises of applications and structured design patterns.</p>
+            <p>I currently work at <a class="company" href="www.globalnewwave.com">Global New Wave Technology</a> as a
+                moblie application developer. Freelancing also available.</p>
+            <h3>Contact Me</h3>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100004246635531"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/KThariMyatMoe"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/kaytharimyatmoe"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/kay-thari-myat-moe-8262a918a"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        </div>
+    </div>
+</body>
+
 </html>
