@@ -58167,7 +58167,7 @@ return!1},
 $S:350}
 A.a2r.prototype={
 $2(a,b){var s=null,r=this.a,q=t.w,p=r.c.T(q).f,o=a.T(q).f,n=this.b,m=t.b,l=new A.cw(B.aL,4,B.ay)
-return A.c([new A.vh(A.na(A.c([new A.vt(r.x,r.d,B.aj,B.aL,n,new A.a2p(r),s)],m),B.b9,B.bh,B.bi),new A.rN(A.mb(B.aU,A.c([new A.r8(new A.kT(A.aC(B.d.ax(127.5),0,0,0),B.e4),A.a8s("assets/images/spaceman.jpg",B.fT,s,a.T(q).f.a.a),s),new A.id(B.W,s,s,A.na(A.c([A.eq(s,A.pe("Hi! This is K3.",s,s,A.aM(a).a_.c.cz(n),s,s),s,new A.dy(B.aL,s,new A.d_(l,l,l,l),s,s,s,B.fP,B.aa),s,s,s,s),A.pe("Mobile Programmer",s,s,A.aM(a).a_.d.cz(n),s,s)],m),B.b9,B.bh,B.bK),s)],m),B.bl),B.wC,s),B.hj,p.a.b-o.f.b,!0,!0,s)],m)},
+return A.c([new A.vh(A.na(A.c([new A.vt(r.x,r.d,B.aj,B.aL,n,new A.a2p(r),s)],m),B.b9,B.bh,B.bi),new A.rN(A.mb(B.aU,A.c([new A.r8(new A.kT(A.aC(B.d.ax(127.5),0,0,0),B.e4),A.a8s("assets/assets/images/spaceman.jpg",B.fT,s,a.T(q).f.a.a),s),new A.id(B.W,s,s,A.na(A.c([A.eq(s,A.pe("Hi! This is K3.",s,s,A.aM(a).a_.c.cz(n),s,s),s,new A.dy(B.aL,s,new A.d_(l,l,l,l),s,s,s,B.fP,B.aa),s,s,s,s),A.pe("Mobile Programmer",s,s,A.aM(a).a_.d.cz(n),s,s)],m),B.b9,B.bh,B.bK),s)],m),B.bl),B.wC,s),B.hj,p.a.b-o.f.b,!0,!0,s)],m)},
 $S:351}
 A.a2p.prototype={
 $1(a){var s=this.a
@@ -58208,9 +58208,9 @@ s.toString
 r.sdF(0,!A.dH(s))}this.c0()}}
 A.z6.prototype={
 M(a,b){var s=null,r=A.aC(13,28,40,52),q=A.pe("Hire Me",s,s,A.aM(b).a_.e.cz(B.mW),s,s),p=t.b
-return A.eq(B.W,A.Xd(A.c([A.Gc(B.dO,A.c([B.tJ,B.Jl,B.Jj,new A.CT(this.c,s,s,s,A.ad9(s,s,A.aC(B.d.ax(76.5),255,206,84),s,s,s,s,B.Fb,s,s,s,s,s,s,s,new A.cw(B.aL,4,B.ay),s,s,s,s),B.C,s,!1,q,s)],p),B.dP,B.aw,0,B.aT),new A.Ai(A.a8s("assets/images/profile.jpg",B.u2,150,150),s)],p),B.b8,B.f1,B.bi),r,s,s,s,s,s)}}
+return A.eq(B.W,A.Xd(A.c([A.Gc(B.dO,A.c([B.tJ,B.Jl,B.Jj,new A.CT(this.c,s,s,s,A.ad9(s,s,A.aC(B.d.ax(76.5),255,206,84),s,s,s,s,B.Fb,s,s,s,s,s,s,s,new A.cw(B.aL,4,B.ay),s,s,s,s),B.C,s,!1,q,s)],p),B.dP,B.aw,0,B.aT),new A.Ai(A.a8s("assets/assets/images/profile.jpg",B.u2,150,150),s)],p),B.b8,B.f1,B.bi),r,s,s,s,s,s)}}
 A.Av.prototype={
-M(a,b){var s,r,q=this,p=null,o=A.aC(B.d.ax(127.5),0,0,0),n=t.w,m=A.a8s("assets/images/spaceman.jpg",B.fT,p,b.T(n).f.a.a),l=b.T(n).f
+M(a,b){var s,r,q=this,p=null,o=A.aC(B.d.ax(127.5),0,0,0),n=t.w,m=A.a8s("assets/assets/images/spaceman.jpg",B.fT,p,b.T(n).f.a.a),l=b.T(n).f
 n=b.T(n).f
 s=A.c([A.aC(102,13,17,23),A.aC(102,28,40,52)],t.it)
 r=t.b
